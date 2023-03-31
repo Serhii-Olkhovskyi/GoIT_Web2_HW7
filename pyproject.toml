@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-web2-hw7"
+version = "0.1.0"
+description = ""
+authors = ["Serhii <90449769+Serhii-Olkhovskyi@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "goit_web2_hw7"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.7"
+alembic = "^1.10.2"
+faker = "^18.3.1"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
